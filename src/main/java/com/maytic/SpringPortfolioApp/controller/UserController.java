@@ -12,6 +12,7 @@ import java.security.Principal;
 /**
  * handle user rest request
  */
+@CrossOrigin
 @RestController
 @RequestMapping("/user")
 public class UserController {
