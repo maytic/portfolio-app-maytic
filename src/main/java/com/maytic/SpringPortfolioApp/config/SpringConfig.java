@@ -50,6 +50,8 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .httpBasic()
                 .and()
+                .cors()
+                .and()
                 .csrf().disable();
     }
 
